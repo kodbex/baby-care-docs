@@ -43,21 +43,6 @@ const config: Config = {
                     editUrl:
                         'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    // Useful options to enforce blogging best practices
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
-                },
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -69,7 +54,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'My Site',
+            title: 'Baby Development Ui Kit',
             logo: {
                 alt: 'My Site Logo',
                 src: 'img/logo.svg',
@@ -78,10 +63,10 @@ const config: Config = {
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
-                    position: 'left',
+                    position: 'right',
                     label: 'Tutorial',
                 },
-                {to: '/blog', label: 'Blog', position: 'left'},
+                // {to: '/blog', label: 'Blog', position: 'left'},
                 {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
