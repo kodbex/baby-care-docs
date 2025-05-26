@@ -35,7 +35,7 @@ function LandingSection() {
         <header
             className="hero bg-cover bg-center pb-[300px]"
             style={{
-                backgroundImage: `url('http://localhost:3000/baby-care-docs/img/bgImg.png')`,
+                backgroundImage: `url('http://localhost:3000/baby-care-docs/img/bgImg.webp')`,
                 backgroundColor: "#f4f6f6",
             }}
         >
@@ -76,7 +76,7 @@ function LandingSection() {
 
                     {/* Feature Cards */}
                     <FeatureCard
-                        image="/img/home_1.png"
+                        image="/img/home_1.webp"
                         title="Daily Activity Overview"
                         description="Encourage healthy development with daily milestone goals."
                         delay="2s"
@@ -84,7 +84,7 @@ function LandingSection() {
                     />
 
                     <FeatureCard
-                        image="/img/home_2.png"
+                        image="/img/home_2.webp"
                         title="Milestone Tracker Dashboard"
                         description="Monitor developmental progress across key skill areas."
                         delay="2s"
@@ -97,7 +97,7 @@ function LandingSection() {
                     className="md:w-1/2 mb-8 md:mb-0 animate__animated animate__fadeInRight animate__delay-1s slow-bounce">
                     <img
                         className="rounded-lg z-10"
-                        src={useBaseUrl("/img/landing_screens.png")}
+                        src={useBaseUrl("/img/landing_screens.webp")}
                         alt="Home Screen 01"
                     />
                 </div>
@@ -121,7 +121,7 @@ function ActivitySection() {
                     className={`md:w-1/2 mb-10 md:mb-0 animate__animated animate__fadeInLeft animate__delay-1s`}>
                     <img
                         className="rounded-lg z-10"
-                        src={useBaseUrl("/img/activities_screen.png")}
+                        src={useBaseUrl("/img/activities_screen.webp")}
                         alt="Activities Screen"
                     />
                 </div>
@@ -160,14 +160,14 @@ function ActivitySection() {
 
                     {/* Feature Cards */}
                     <FeatureCard
-                        image="/img/activities.png"
+                        image="/img/activities.webp"
                         title="Skill-Based Activity Library"
                         description="Explore curated activities by developmental domains. Browse a categorized list of engaging activities (e.g., Gross Motor, Cognitive, Speech) tailored to the child’s age, with quick insights into levels and popularity."
                         delay="2s"
                         animate={inView}
                     />
                     <FeatureCard
-                        image="/img/activity_details.png"
+                        image="/img/activity_details.webp"
                         title="Activity Guide & Tools"
                         description="Get step-by-step guidance for each activity. View the objective, detailed description, targeted milestones, and recommended toys or tools to support your child’s learning and engagement."
                         delay="3s"
@@ -223,21 +223,21 @@ function FeedSection() {
 
                     {/* Feature Cards */}
                     <FeatureCard
-                        image="/img/image_feed.png"
+                        image="/img/image_feed.webp"
                         title="Parenting Insights Feed"
                         description="Scroll through tips, stories, and growth ideas. Image-based feed with short titles, subtitles, and easy share/save options—perfect for parents to discover daily tips and knowledge on child development."
                         delay="2s"
                         animate={inView}
                     />
                     <FeatureCard
-                        image="/img/feed_details.png"
+                        image="/img/feed_details.webp"
                         title="Deep Dive into Parenting Tips"
                         description="Expand on what you read—get full context. A detailed view with complete content about each feed post, offering in-depth parenting advice, activity ideas, and developmental guidance."
                         delay="3s"
                         animate={inView}
                     />
                     <FeatureCard
-                        image="/img/video_feed.png"
+                        image="/img/video_feed.webp"
                         title="Shorts for Kids"
                         description="Fun, educational videos for little ones. A swipeable video feed where babies can watch short, age-appropriate videos with interactive features like like, comment, and share—just like YouTube Shorts."
                         delay="4s"
@@ -251,7 +251,7 @@ function FeedSection() {
                     <img
                         className="rounded-lg z-10"
                         style={{width: "auto"}}
-                        src={useBaseUrl("/img/feed_section.png")}
+                        src={useBaseUrl("/img/feed_section.webp")}
                         alt="Feed Section"
                     />
                 </div>
@@ -275,7 +275,7 @@ function ChildManagementSection() {
                     className={`md:w-1/2 mb-10 md:mb-0 ${inView ? "animate__animated animate__fadeInLeft animate__delay-1s" : "opacity-0"}`}>
                     <img
                         className="rounded-lg z-10"
-                        src={useBaseUrl("/img/child_management.png")}
+                        src={useBaseUrl("/img/child_management.webp")}
                         alt="Child Management"
                     />
                 </div>
@@ -310,14 +310,14 @@ function ChildManagementSection() {
 
                     {/* Feature Cards */}
                     <FeatureCard
-                        image="/img/child_listing.png"
+                        image="/img/child_listing.webp"
                         title="Your Children at a Glance"
                         description="View all added children in one place. Switch between children with a tap to get tailored activities, progress, and feeds for each child."
                         delay="2s"
                         animate={inView}
                     />
                     <FeatureCard
-                        image="/img/child_add.png"
+                        image="/img/child_add.webp"
                         title="Add a New Star to Your Galaxy"
                         description="Easily add a new child by entering age, name, and photo. This helps personalize the app experience—ensuring activities, milestones, and suggestions match your child's exact development stage."
                         delay="3s"
@@ -356,17 +356,17 @@ function IntroSliders() {
                     </div>
                     {[
                         {
-                            img: "/img/slider1.png",
+                            img: "/img/slider1.webp",
                             title: "Parenting Expert in Your Pocket",
                             text: "Get daily guidance and trusted tips from child development experts..."
                         },
                         {
-                            img: "/img/slider2.png",
+                            img: "/img/slider2.webp",
                             title: "Support Development with AI",
                             text: "Unlock AI-powered activity recommendations tailored to your child's age..."
                         },
                         {
-                            img: "/img/slider3.png",
+                            img: "/img/slider3.webp",
                             title: "Smart Parenting, Made Easy",
                             text: "Navigate parenting with confidence with personalized support."
                         }
@@ -387,7 +387,7 @@ function IntroSliders() {
                     transition={{duration: 0.8}}
                     className="md:w-1/2"
                 >
-                    <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/intro_sliders_screen.png")}
+                    <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/intro_sliders_screen.webp")}
                          alt="Intro Sliders Screen"/>
                 </motion.div>
             </div>
@@ -408,7 +408,7 @@ function UIComponentSections() {
                     transition={{duration: 0.8}}
                     className="md:w-1/2 mb-8 md:mb-0"
                 >
-                    <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/ui_components.png")}
+                    <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/ui_components.webp")}
                          alt="UI Components"/>
                 </motion.div>
                 <motion.div
