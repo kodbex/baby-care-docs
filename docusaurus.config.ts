@@ -39,8 +39,7 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: '/',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -51,7 +50,7 @@ const config: Config = {
     staticDirectories: ['static'],
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/social-card.png',
         footer: {
             style: 'light',
             links: [
