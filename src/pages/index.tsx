@@ -62,7 +62,7 @@ function LandingSection() {
                         className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 animate__animated animate__fadeInUp animate__delay-2s">
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/buy"
+                            to="/"
                         >
                             Buy Now
                         </Link>
@@ -154,7 +154,7 @@ function ActivitySection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/buy"
+                            to="/"
                         >
                             Buy Now
                         </Link>
@@ -217,7 +217,7 @@ function FeedSection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/buy"
+                            to="/"
                         >
                             Buy Now
                         </Link>
@@ -304,7 +304,7 @@ function ChildManagementSection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/buy"
+                            to="/"
                         >
                             Buy Now
                         </Link>
@@ -357,7 +357,7 @@ function IntroSliders() {
                         Join thousands of parents using AI-powered guidance to support their child’s development...
                     </p>
                     <div className="flex justify-center md:justify-start space-x-4 mb-6">
-                        <Link className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0]" to="/buy">Buy
+                        <Link className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0]" to="/">Buy
                             Now</Link>
                         <Link className="bg-[#EE8FC8] text-white px-6 py-3 rounded-lg hover:bg-[#d67eb4]"
                               to="/docs/intro">Explore Tutorial - 5min ⏱️</Link>

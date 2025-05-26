@@ -85,10 +85,6 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
                             label: 'GitHub',
                             href: 'https://github.com/facebook/docusaurus',
                         },
@@ -122,16 +118,16 @@ const config: Config = {
             items: [
                 // Centered menu links
                 {to: '/docs/intro', label: 'Docs', position: 'left'},
-                {to: '/features', label: 'Features', position: 'left'},
-                {to: '/pricing', label: 'Pricing', position: 'left'},
-                {to: '/support', label: 'Support', position: 'left'},
+                // {to: '/features', label: 'Features', position: 'left'},
+                // {to: '/pricing', label: 'Pricing', position: 'left'},
+                // {to: '/support', label: 'Support', position: 'left'},
                 // Right-side link
-                {
-                    to: '/buy',
-                    label: 'Buy Now',
-                    position: 'right',
-                    className: 'buy-now-link', // For custom styling
-                },
+                // {
+                //     to: '/buy',
+                //     label: 'Buy Now',
+                //     position: 'right',
+                //     className: 'buy-now-link', // For custom styling
+                // },
             ],
         }
     } satisfies Preset.ThemeConfig,
