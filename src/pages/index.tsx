@@ -33,6 +33,7 @@ const FeatureCard = ({image, title, description, delay = "2s", animate = false})
 function LandingSection() {
     return (
         <header
+            id="screens"
             className="hero bg-cover bg-center pb-[300px]"
             style={{
                 backgroundImage: `url(${useBaseUrl('img/bgImg.webp')})`,
@@ -121,7 +122,7 @@ function ActivitySection() {
     });
 
     return (
-        <section className="bg-[#f4f6f6] py-16" ref={ref}>
+        <section id="activities" className="bg-[#f4f6f6] py-16" ref={ref}>
             <div
                 className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10 section-container">
                 {/* Left Image */}
@@ -194,7 +195,7 @@ function FeedSection() {
     });
 
     return (
-        <section className="bg-[#f4f6f6] py-16" ref={ref}>
+        <section id="feeds" className="bg-[#f4f6f6] py-16" ref={ref}>
             <div
                 className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10 section-container">
                 {/* Left Text */}
@@ -275,7 +276,7 @@ function ChildManagementSection() {
     });
 
     return (
-        <section className="bg-[#f4f6f6] py-16" ref={ref}>
+        <section id="child-management" className="bg-[#f4f6f6] py-16" ref={ref}>
             <div
                 className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10 section-container">
                 {/* Left Image */}
@@ -341,7 +342,7 @@ function IntroSliders() {
     const {ref, inView} = useInView({triggerOnce: true, threshold: 0});
 
     return (
-        <section className="bg-[#f4f6f6] py-12">
+        <section id="onboarding" className="bg-[#f4f6f6] py-12">
             <div ref={ref}
                  className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between section-container">
                 <motion.div
@@ -406,7 +407,7 @@ function UIComponentSections() {
     const {ref, inView} = useInView({triggerOnce: true, threshold: 0});
 
     return (
-        <section className="bg-[#f4f6f6] py-12">
+        <section id="components" className="bg-[#f4f6f6] py-12">
             <div ref={ref}
                  className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between section-container">
                 <motion.div
@@ -450,14 +451,14 @@ function HireUs() {
     const {ref, inView} = useInView({triggerOnce: true, threshold: 0});
 
     return (
-        <section className="bg-[#f4f6f6] py-12">
+        <section id="hire-us" className="bg-[#f4f6f6] py-12">
             <div ref={ref}>
                 <motion.div
                     initial={{opacity: 0, y: 40}}
                     animate={inView ? {opacity: 1, y: 0} : {}}
                     transition={{duration: 0.8}}
                 >
-                    <Heading as="h2" className="text-4xl font-bold text-center mb-6">🚀 Collaborate with Us</Heading>
+                    <Heading as="h2" className="text-4xl font-bold text-center mb-6">Collaborate with Us</Heading>
                     <p className="text-center text-gray-700 max-w-2xl mx-auto mb-10">
                         Whether you're looking to build your own AI-powered baby development app or want to support our
                         ecosystem...

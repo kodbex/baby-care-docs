@@ -59,39 +59,59 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
+                            label: 'Guide',
+                            to: '/docs/intro',
+                        },
+                        {
+                            label: 'Setup',
                             to: '/docs/intro',
                         },
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: 'Links',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Screens',
+                            href: '/#screens',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            label: 'Components',
+                            href: '/#components',
                         },
                         {
-                            label: 'X',
-                            href: 'https://x.com/docusaurus',
+                            label: 'Hire US',
+                            href: '/#hire-us',
                         },
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Screens',
                     items: [
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            label: 'Activities',
+                            href: '/#activities',
+                        },
+                        {
+                            label: 'Feeds',
+                            href: '/#feeds',
+                        },
+                        {
+                            label: 'Child Management',
+                            href: '/#child-management',
+                        },
+                        {
+                            label: 'Onboarding',
+                            href: '/#onboarding',
+                        },
+                        {
+                            label: 'UI Component',
+                            href: '/#components',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Baby Development UI Kit, Inc. Built with KodBex.`,
         },
         prism: {
             theme: prismThemes.github,
@@ -110,7 +130,7 @@ const config: Config = {
             },
         ],
         navbar: {
-            hideOnScroll: true, // Ensures the navbar doesn't hide on scroll
+            hideOnScroll: false, // Ensures the navbar doesn't hide on scroll
             logo: {
                 alt: 'Baby Development UI Kit',
                 src: 'img/white_logo.png',
@@ -118,18 +138,21 @@ const config: Config = {
             items: [
                 // Centered menu links
                 {to: '/docs/intro', label: 'Docs', position: 'left'},
-                // {to: '/features', label: 'Features', position: 'left'},
-                // {to: '/pricing', label: 'Pricing', position: 'left'},
-                // {to: '/support', label: 'Support', position: 'left'},
-                // Right-side link
-                // {
-                //     to: '/buy',
-                //     label: 'Buy Now',
-                //     position: 'right',
-                //     className: 'buy-now-link', // For custom styling
-                // },
+                {to: '/#screens', label: 'Screens', position: 'left'},
+                {to: '/#components', label: 'Components', position: 'left'},
+                {
+                    to: '/#hire-us',
+                    label: 'Hire Us',
+                    position: 'right',
+                    className: 'buy-now-link', // For custom styling
+                },
             ],
-        }
+        },
+        colorMode: {
+            defaultMode: 'light',
+            disableSwitch: true,
+            respectPrefersColorScheme: false,
+        },
     } satisfies Preset.ThemeConfig,
     stylesheets: [
         'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',

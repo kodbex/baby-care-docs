@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 10rem;
+    padding: 0.5rem 5rem;
     background-color: #93abdb; /* Changed to transparent */
     box-shadow: none; /* Removed shadow */
     position: relative; /* Changed to relative to prevent stickiness */
