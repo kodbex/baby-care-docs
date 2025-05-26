@@ -35,7 +35,7 @@ function LandingSection() {
         <header
             className="hero bg-cover bg-center pb-[300px]"
             style={{
-                backgroundImage: `url('http://localhost:3000/baby-care-docs/img/bgImg.webp')`,
+                backgroundImage: `url(${useBaseUrl('img/bgImg.webp')})`,
                 backgroundColor: "#f4f6f6",
             }}
         >
