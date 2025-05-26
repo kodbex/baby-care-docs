@@ -3,7 +3,7 @@ name: Deploy BabyCare
 on:
   push:
     branches:
-      - master  # or 'master' if you're using that
+      - main  # or 'master' if you're using that
 
 jobs:
   deploy:
