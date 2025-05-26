@@ -17,11 +17,11 @@ const FeatureCard = ({image, title, description, delay = "2s", animate = false})
         }`}
     >
         <div className="flex items-start bg-white rounded-lg shadow-lg p-4">
-            {image && <img
-                className="w-16 h-16 mr-4 object-contain"
-                src={useBaseUrl(image)}
-                alt={title}
-            />}
+            {/*{image && <img*/}
+            {/*    className="w-16 h-16 mr-4 object-contain"*/}
+            {/*    src={useBaseUrl(image)}*/}
+            {/*    alt={title}*/}
+            {/*/>}*/}
             <div>
                 <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
                 <p className="text-sm text-gray-600">{description}</p>
@@ -87,6 +87,14 @@ function LandingSection() {
                         image="/img/home_2.webp"
                         title="Milestone Tracker Dashboard"
                         description="Monitor developmental progress across key skill areas."
+                        delay="2s"
+                        animate={true}
+                    />
+
+                    <FeatureCard
+                        image="/img/home_2.webp"
+                        title="Redux Seamless State Management"
+                        description="Leverage Zustand with Redux support for efficient global state setup."
                         delay="2s"
                         animate={true}
                     />
@@ -371,14 +379,13 @@ function IntroSliders() {
                             text: "Navigate parenting with confidence with personalized support."
                         }
                     ].map(({img, title, text}, idx) => (
-                        <div key={idx}
-                             className="flex items-center bg-white rounded-lg shadow-lg p-4 mt-4 max-w-md mx-auto md:mx-0">
-                            <img className="w-16 h-16 mr-4" src={useBaseUrl(img)} alt={title}/>
-                            <div>
-                                <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-                                <p className="text-sm text-gray-600">{text}</p>
-                            </div>
-                        </div>
+                        <FeatureCard
+                            image={img}
+                            title={title}
+                            description={text}
+                            delay="2s"
+                            animate={true}
+                        />
                     ))}
                 </motion.div>
                 <motion.div
@@ -433,16 +440,6 @@ function UIComponentSections() {
                             <p className="text-sm text-gray-600">{text}</p>
                         </div>
                     ))}
-                    <div className="mt-6 max-w-md mx-auto md:mx-0">
-                        <div className="flex items-center bg-white rounded-lg shadow-lg p-4">
-                            <div>
-                                <h3 className="text-lg font-semibold text-gray-900">Seamless State Management</h3>
-                                <p className="text-sm text-gray-600">
-                                    Leverage Zustand with Redux support for efficient global state setup.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </motion.div>
             </div>
         </section>

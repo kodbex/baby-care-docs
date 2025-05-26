@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'Baby Care Docs',
-    tagline: 'React Native Expo Baby App Development Template',
+    tagline: 'Baby App Development Template | React Native',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -14,7 +14,6 @@ const config: Config = {
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/baby-care-docs/',
-
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'kodbex', // Usually your GitHub org/user name.
@@ -116,10 +115,10 @@ const config: Config = {
         ],
         navbar: {
             hideOnScroll: true, // Ensures the navbar doesn't hide on scroll
-            // logo: {
-            //     alt: 'Baby Development UI Kit Logo',
-            //     src: 'img/logo.svg', // Replace with your logo path in static/img/
-            // },
+            logo: {
+                alt: 'Baby Development UI Kit',
+                src: 'img/white_logo.png',
+            },
             items: [
                 // Centered menu links
                 {to: '/docs/intro', label: 'Docs', position: 'left'},
