@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #2e8555;
+    --ifm-color-primary: #EE8FC8;
     --ifm-color-primary-dark: #29784c;
     --ifm-color-primary-darker: #277148;
     --ifm-color-primary-darkest: #205d3b;
@@ -87,8 +87,92 @@
     display: none;
 }
 
+.section-container {
+    margin: 20px 0 100px 0
+}
+
 @media (max-width: 996px) {
     .navbar__items {
         justify-content: flex-start;
     }
 }
+
+/*.hero {*/
+/*    position: relative;*/
+/*    background: #f4f6f6;*/
+/*}*/
+
+/*.section {*/
+/*    position: relative;*/
+/*}*/
+
+/*.fade-in {*/
+/*    opacity: 0;*/
+/*    transform: translateY(20px);*/
+/*    transition: opacity 0.6s ease-out, transform 0.6s ease-out;*/
+/*}*/
+
+/*.fade-in.fadeIn {*/
+/*    opacity: 1;*/
+/*    transform: translateY(0);*/
+/*}*/
+
+/*.bounce-rotate {*/
+/*    transform-origin: center bottom;*/
+/*}*/
+
+/*.bounce-rotate.slow-bounce {*/
+/*    animation: bounce 2s infinite ease-in-out; !* Slower bounce effect *!*/
+/*}*/
+
+/*@keyframes bounce {*/
+/*    0%, 20%, 50%, 80%, 100% {*/
+/*        transform: rotate(0deg) translateY(0);*/
+/*    }*/
+/*    40% {*/
+/*        transform: rotate(11.3deg) translateY(-20px); !* Adjust bounce height *!*/
+/*    }*/
+/*    60% {*/
+/*        transform: rotate(11.3deg) translateY(-10px);*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 640px) {*/
+/*    .hero, .section {*/
+/*        padding: 1rem;*/
+/*    }*/
+
+/*    .text-4xl, .text-5xl, .text-6xl {*/
+/*        font-size: 1.5rem !important;*/
+/*    }*/
+
+/*    .text-lg, .text-xl {*/
+/*        font-size: 1rem !important;*/
+/*    }*/
+
+/*    .max-w-lg {*/
+/*        max-width: 100%;*/
+/*    }*/
+
+/*    .flex-col .space-x-4 {*/
+/*        !*spaceX: 0;*!*/
+/*    }*/
+
+/*    img {*/
+/*        max-height: 300px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 641px) and (max-width: 1024px) {*/
+/*    .text-4xl, .text-5xl, .text-6xl {*/
+/*        font-size: 2rem !important;*/
+/*    }*/
+
+/*    .text-lg, .text-xl {*/
+/*        font-size: 1.2rem !important;*/
+/*    }*/
+
+/*    img {*/
+/*        max-height: 400px;*/
+/*    }*/
+/*}*/
