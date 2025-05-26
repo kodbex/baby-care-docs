@@ -49,33 +49,12 @@ const config: Config = {
             } satisfies Preset.Options,
         ],
     ],
-
+    staticDirectories: ['static'],
     themeConfig: {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
-        navbar: {
-            title: 'Baby Development Ui Kit',
-            logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
-            },
-            items: [
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
-                    position: 'right',
-                    label: 'Tutorial',
-                },
-                // {to: '/blog', label: 'Blog', position: 'left'},
-                {
-                    href: 'https://github.com/facebook/docusaurus',
-                    label: 'GitHub',
-                    position: 'right',
-                },
-            ],
-        },
         footer: {
-            style: 'dark',
+            style: 'light',
             links: [
                 {
                     title: 'Docs',
@@ -123,7 +102,50 @@ const config: Config = {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
+        metadata: [
+            {
+                name: 'application/ld+json',
+                content: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'SoftwareApplication',
+                    name: 'Baby Development App UI Kit',
+                    operatingSystem: 'iOS, Android',
+                    applicationCategory: 'Developer Tools',
+                }),
+            },
+        ],
+        navbar: {
+            hideOnScroll: true, // Ensures the navbar doesn't hide on scroll
+            // logo: {
+            //     alt: 'Baby Development UI Kit Logo',
+            //     src: 'img/logo.svg', // Replace with your logo path in static/img/
+            // },
+            items: [
+                // Centered menu links
+                {to: '/docs/intro', label: 'Docs', position: 'left'},
+                {to: '/features', label: 'Features', position: 'left'},
+                {to: '/pricing', label: 'Pricing', position: 'left'},
+                {to: '/support', label: 'Support', position: 'left'},
+                // Right-side link
+                {
+                    to: '/buy',
+                    label: 'Buy Now',
+                    position: 'right',
+                    className: 'buy-now-link', // For custom styling
+                },
+            ],
+        }
     } satisfies Preset.ThemeConfig,
+    stylesheets: [
+        'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
+    ],
+    scripts: [
+        {
+            src: 'https://cdn.tailwindcss.com',
+            async: true,
+        },
+    ],
+
 };
 
 export default config;
