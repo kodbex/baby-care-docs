@@ -474,7 +474,7 @@ function HireUs() {
                     <div className="bg-white shadow-lg rounded-xl p-6">
                         <h3 className="text-2xl font-semibold mb-2">Hire Us</h3>
                         <p className="text-gray-600 mb-4">
-                            We build scalable React Native apps and full-stack baby development solutions...
+                            We build scalable React Native apps and full-stack development solutions.
                         </p>
                         <a href="https://wa.me/923167852626" target="_blank" rel="noopener noreferrer"
                            className="inline-flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-md shadow hover:bg-green-600">
@@ -486,9 +486,9 @@ function HireUs() {
                     <div className="bg-white shadow-lg rounded-xl p-6">
                         <h3 className="text-2xl font-semibold mb-2">Fund or Invest</h3>
                         <p className="text-gray-600 mb-4">
-                            We’re building the future of parenting with AI. Join us as a backer or investor...
+                            We’re building the future of parenting with AI. Join us as a backer or investor.
                         </p>
-                        <a href="mailto:hello@yourdomain.com"
+                        <a href="mailto:kodbex.com@gmail.com"
                            className="inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-md shadow hover:bg-blue-600">
                             <FaEnvelope/> Send an Email
                         </a>
