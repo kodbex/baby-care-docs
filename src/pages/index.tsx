@@ -108,6 +108,7 @@ function LandingSection() {
                         className="rounded-lg z-10"
                         src={useBaseUrl("/img/landing_screens.webp")}
                         alt="Home Screen 01"
+                        loading="lazy"
                     />
                 </div>
             </div>
@@ -131,6 +132,7 @@ function ActivitySection() {
                     <img
                         className="rounded-lg z-10"
                         src={useBaseUrl("/img/activities_screen.webp")}
+                        loading="lazy"
                         alt="Activities Screen"
                     />
                 </div>
@@ -261,6 +263,7 @@ function FeedSection() {
                         className="rounded-lg z-10"
                         style={{width: "auto"}}
                         src={useBaseUrl("/img/feed_section.webp")}
+                        loading="lazy"
                         alt="Feed Section"
                     />
                 </div>
@@ -285,6 +288,7 @@ function ChildManagementSection() {
                     <img
                         className="rounded-lg z-10"
                         src={useBaseUrl("/img/child_management.webp")}
+                        loading="lazy"
                         alt="Child Management"
                     />
                 </div>
@@ -396,6 +400,7 @@ function IntroSliders() {
                     className="md:w-1/2"
                 >
                     <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/intro_sliders_screen.webp")}
+                         loading="lazy"
                          alt="Intro Sliders Screen"/>
                 </motion.div>
             </div>
@@ -417,6 +422,7 @@ function UIComponentSections() {
                     className="md:w-1/2 mb-8 md:mb-0"
                 >
                     <img className="rounded-lg bounce-rotate" src={useBaseUrl("/img/ui_components.webp")}
+                         loading="lazy"
                          alt="UI Components"/>
                 </motion.div>
                 <motion.div
