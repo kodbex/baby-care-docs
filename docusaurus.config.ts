@@ -5,19 +5,19 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'Baby Care Docs',
-    tagline: 'Baby App Development Template | React Native',
+    title: 'AI Baby Development UI Kit',
+    tagline: 'Beautiful React Native Templates for Baby Development Milestones, Health, and Growth',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
     url: 'https://kodbex.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/baby-care-docs/',
+    baseUrl: '/baby-development-ui-kit/',
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'kodbex', // Usually your GitHub org/user name.
-    projectName: 'baby-care-docs', // Usually your repo name.
+    projectName: 'baby-development-ui-kit', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -116,18 +116,6 @@ const config: Config = {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
-        metadata: [
-            {
-                name: 'application/ld+json',
-                content: JSON.stringify({
-                    '@context': 'https://schema.org',
-                    '@type': 'SoftwareApplication',
-                    name: 'Baby Development App UI Kit',
-                    operatingSystem: 'iOS, Android',
-                    applicationCategory: 'Developer Tools',
-                }),
-            },
-        ],
         navbar: {
             hideOnScroll: false, // Ensures the navbar doesn't hide on scroll
             logo: {
@@ -152,6 +140,52 @@ const config: Config = {
             disableSwitch: true,
             respectPrefersColorScheme: false,
         },
+        metadata: [
+            {
+                name: 'keywords',
+                content: 'React Native, UI Kit, Baby Development, Mobile App Templates, Milestone Tracker, Expert React Native Developer'
+            },
+            {name: 'author', content: 'Sulaman Khan'},
+            {name: 'robots', content: 'index, follow'},
+            {
+                name: 'description',
+                content: 'React Native UI Kit for baby growth tracking, milestone development, parenting support, and smart health apps.'
+            },
+            {
+                name: 'application/ld+json',
+                content: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'SoftwareApplication',
+                    name: 'Baby Development App UI Kit',
+                    operatingSystem: 'iOS, Android',
+                    applicationCategory: 'Developer Tools',
+                    "creator": {
+                        "@type": "Person",
+                        "name": "Sulaman Khan"
+                    }
+                }),
+            },
+            {property: 'og:title', content: 'Baby Development React Native UI Kit'},
+            {
+                property: 'og:description',
+                content: 'Launch smarter parenting apps with beautiful, AI-ready UI components.'
+            },
+            {property: 'og:image', content: 'https://github.io/kodbex/img/social-card.png'},
+            {property: 'og:url', content: 'https://github.io/kodbex/img/social-card.png'},
+            {name: 'twitter:card', content: 'https://github.io/kodbex/img/social-card.png'},
+
+        ],
+        presets: [
+            [
+                '@docusaurus/preset-classic',
+                {
+                    sitemap: {
+                        changefreq: 'weekly',
+                        priority: 0.5,
+                    },
+                },
+            ],
+        ],
     } satisfies Preset.ThemeConfig,
     stylesheets: [
         'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
