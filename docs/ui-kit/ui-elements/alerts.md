@@ -4,7 +4,7 @@ title: Alerts
 description: A React Native screen that demonstrates different types of alert UIs such as simple alerts, alerts with actions, and styled text alerts—some with dismissable options. Designed with reusability and clarity in mind.
 ---
 
-# MNAlertText Component
+# MNAlertText
 
 A simple alert text component that displays a message with different alert types and corresponding background and text
 colors.

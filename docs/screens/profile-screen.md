@@ -12,7 +12,7 @@ save button. The screen emphasizes simplicity and accessibility.
 
 ---
 
-## Key Components
+## Keys
 
 - **ShortTopBarV3**  
   A minimalistic top bar showing the screen title "Profile" without extra distractions.
