@@ -7,6 +7,8 @@ description: In App Notifications.
 
 ## MNToaster Component
 
+### Import
+
 ```tsx
 import {MNToaster} from '@/components/ui/MNToaster';
 ```
@@ -32,7 +34,7 @@ import {MNToaster} from '@/components/ui/MNToaster';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 MNToaster({

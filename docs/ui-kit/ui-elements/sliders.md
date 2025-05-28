@@ -5,7 +5,11 @@ description: A customizable button component that supports icons, loading states
 
 ---
 
-## # MNImageSlider Component
+# MNImageSlider
+
+## MNImageSlider
+
+### Import
 
 ```tsx
 import MNImageSlider from '@/components/ui/MNImageSlider';
@@ -29,7 +33,7 @@ import MNImageSlider from '@/components/ui/MNImageSlider';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 const slides = [
@@ -50,7 +54,7 @@ const slides = [
 
 ## MNTextSlider
 
-##  Import
+### Import
 
 ```tsx
 import MNTextSlider from '@/components/ui/MNTextSlider';
@@ -73,6 +77,8 @@ import MNTextSlider from '@/components/ui/MNTextSlider';
 | `onSlidePress`     | `(slideNumber: number) => void` | ❌        | `undefined` | Callback called with the slide id when a slide is pressed.                       |
 
 ---
+
+### Basic Example
 
 ```tsx
 const textSlides = [
