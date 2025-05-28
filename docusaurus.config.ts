@@ -1,55 +1,43 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import {themes as prismThemes} from "prism-react-renderer";
+import type {Config} from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
     title: 'AI Baby Development UI Kit',
     tagline: 'Beautiful React Native Templates for Baby Development Milestones, Health, and Growth',
     favicon: 'img/favicon.ico',
-
-    // Set the production url of your site here
     url: 'https://kodbex.github.io',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/baby-development-ui-kit/',
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'kodbex', // Usually your GitHub org/user name.
-    projectName: 'baby-development-ui-kit', // Usually your repo name.
-
+    organizationName: 'kodbex',
+    projectName: 'baby-development-ui-kit',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-
+    i18n: {
+        defaultLocale: "en",
+        locales: ["en"],
+    },
     trailingSlash: false,
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
-    // i18n: {
-    //     defaultLocale: 'en',
-    //     locales: ['en'],
-    // },
+    plugins: [tailwindPlugin],
 
     presets: [
         [
-            'classic',
+            "classic",
             {
                 docs: {
-                    sidebarPath: './sidebars.ts',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl: '/',
+                    sidebarPath: "./sidebars.ts",
+                },
+                blog: {
+                    showReadingTime: true,
                 },
                 theme: {
-                    customCss: './src/css/custom.css',
+                    customCss: "./src/css/custom.css",
                 },
             } satisfies Preset.Options,
         ],
     ],
-    staticDirectories: ['static'],
+
     themeConfig: {
-        // Replace with your project's social card
         image: 'img/social-card.png',
         footer: {
             style: 'light',
@@ -117,7 +105,7 @@ const config: Config = {
             darkTheme: prismThemes.dracula,
         },
         navbar: {
-            hideOnScroll: false, // Ensures the navbar doesn't hide on scroll
+            // hideOnScroll: false, // Ensures the navbar doesn't hide on scroll
             logo: {
                 alt: 'Baby Development UI Kit',
                 src: 'img/white_logo.png',
@@ -186,6 +174,11 @@ const config: Config = {
                 },
             ],
         ],
+        // algolia: {
+        //     appId: "0CMHNGVUX0",
+        //     apiKey: "fb8a8bf7f10a789e5c28ae7be4f70512",
+        //     indexName: "test_index",
+        // },
     } satisfies Preset.ThemeConfig,
     stylesheets: [
         'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
@@ -193,14 +186,7 @@ const config: Config = {
             href: 'https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap',
             type: 'text/css',
         },
-    ],
-    scripts: [
-        {
-            src: 'https://cdn.tailwindcss.com',
-            async: true,
-        },
-    ],
-
+    ]
 };
 
 export default config;
