@@ -4,7 +4,7 @@ title: Avatars
 description: A React Native screen that demonstrates different types of alert UIs such as simple alerts, alerts with actions, and styled text alerts—some with dismissable options. Designed with reusability and clarity in mind.
 ---
 
-## MNAvatar Component
+## MNAvatar
 
 The `MNAvatar` component is a customizable avatar display used in React Native applications. It can render either an
 image or fallback text within a circular or rectangular shape, and comes in multiple predefined sizes.
@@ -106,7 +106,7 @@ import MNAvatarGroup from '@/components/MNAvatarGroup';
 
 ---
 
-## 🧠 Usage
+## Usage
 
 ### Basic Avatar Group
 

@@ -82,7 +82,7 @@ import MNTextualBadge from '@/components/MNTextualBadge';
 
 ---
 
-## 🧠 Usage Examples
+## Usage Examples
 
 ### Default (Primary) Badge
 

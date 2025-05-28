@@ -106,7 +106,7 @@ import MNCompoundButton from '@/components/ui/buttons/MNCompoundButton';
 
 ---
 
-## 🧠 Usage Examples
+## Usage Examples
 
 ### Simple Use Case
 
@@ -154,7 +154,7 @@ import MNDropdown from '@/components/ui/buttons/MNDropdown';
 
 ---
 
-## 🧠 Usage Examples
+## Usage Examples
 
 ### Simple Use Case
 

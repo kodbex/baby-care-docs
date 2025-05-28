@@ -31,7 +31,7 @@ import BottomSheet from '@/components/shared/bottomsheet/BottomSheet';
 
 ## Usage Examples
 
-## 🧠 Usage Examples
+## Usage Examples
 
 ### Basic Usage
 
