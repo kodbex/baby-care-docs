@@ -9,7 +9,7 @@ description: A React Native screen that demonstrates different types of alert UI
 A simple alert text component that displays a message with different alert types and corresponding background and text
 colors.
 
-## 📦 Import
+##  Import
 
 ```tsx
 import MNAlertText from '@/components/MNAlertText';
@@ -125,7 +125,7 @@ import MNAlertTextCloseAble from '@/components/MNAlertTextCloseAble';
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 > **NOTE:**
 > All example can be founded in `alerts.tsx`
