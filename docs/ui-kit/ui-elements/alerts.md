@@ -17,7 +17,7 @@ import MNAlertText from '@/components/MNAlertText';
 
 ---
 
-## ⚙️ Props
+## Props
 
 | Prop      | Type                                               | Default      | Description                      |
 |-----------|----------------------------------------------------|--------------|----------------------------------|
@@ -88,7 +88,7 @@ import MNAlertTextCloseAble from '@/components/MNAlertTextCloseAble';
 
 ---
 
-### ⚙️ Props
+### Props
 
 | Prop      | Type                                               | Default      | Description                      |
 |-----------|----------------------------------------------------|--------------|----------------------------------|

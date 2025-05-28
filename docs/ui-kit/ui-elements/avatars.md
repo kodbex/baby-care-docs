@@ -21,7 +21,7 @@ image or fallback text within a circular or rectangular shape, and comes in mult
 import MNAvatar from '@/components/MNAvatar';
 ```
 
-### ⚙️ Props
+### Props
 
 | Prop              | Type                                   | Default         | Description                               |
 |-------------------|----------------------------------------|-----------------|-------------------------------------------|
@@ -93,7 +93,7 @@ import MNAvatarGroup from '@/components/MNAvatarGroup';
 
 ---
 
-### ⚙️ Props
+### Props
 
 | Prop         | Type                                   | Default      | Description                                        |
 |--------------|----------------------------------------|--------------|----------------------------------------------------|

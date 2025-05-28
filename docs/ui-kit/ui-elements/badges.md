@@ -18,7 +18,7 @@ import MNBadge from '@/components/MNBadge';
 
 ---
 
-## ⚙️ Props
+## Props
 
 | Prop             | Type                          | Default           | Description                                         |
 |------------------|-------------------------------|-------------------|-----------------------------------------------------|
@@ -73,7 +73,7 @@ import MNTextualBadge from '@/components/MNTextualBadge';
 
 ---
 
-## ⚙️ Props
+## Props
 
 | Prop   | Type                                  | Default      | Description                             |
 |--------|---------------------------------------|--------------|-----------------------------------------|
