@@ -1,10 +1,7 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* You can override the default Infima variables here. */
 :root {
     --ifm-color-primary: #EE8FC8;
     --ifm-color-primary-dark: #29784c;
@@ -19,7 +16,6 @@
     --ifm-heading-font-family: 'Josefin Sans', sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
     --ifm-color-primary: #25c2a0;
     --ifm-color-primary-dark: #21af90;
@@ -35,46 +31,52 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 5rem;
-    background-color: #93abdb; /* Changed to transparent */
-    box-shadow: none; /* Removed shadow */
-    position: relative; /* Changed to relative to prevent stickiness */
-    height: 80px;
+@keyframes slowBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-35px);
+    }
 }
 
-.navbar__inner {
-    display: flex;
-    align-items: center;
-    width: 100%;
+.slow-bounce {
+    animation: slowBounce 3s ease-in-out infinite;
 }
 
-.navbar__brand {
-    flex: 0 0 auto;
+.navbar__logo {
+    background: #EE8FC8;
 }
 
-.navbar__items {
-    display: flex;
-    justify-content: left;
-    flex: 1;
-    gap: 1.5rem;
+.navbar__logo img {
+    padding: 2px;
 }
 
-.navbar__items--right {
-    flex: 0 0 auto;
-}
+.landing-page {
+    .navbar__logo {
+        background: unset;
+    }
 
-.navbar__link {
-    color: white; /* Kept color for visibility; adjust if needed */
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 5rem;
+        background-color: #93abdb;
+        box-shadow: none;
+        position: relative;
+        height: 80px;
+    }
 
-.navbar__link:hover {
-    color: #50BEE9;
+    .navbar__link {
+        color: white;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+    .navbar__link:hover {
+        color: #50BEE9;
+    }
 }
 
 .buy-now-link {
@@ -89,29 +91,12 @@ body {
     background-color: #3ea8d0;
 }
 
-.footer__item svg {
-    display: none;
-}
-
-.section-container {
-    margin: 20px 0 100px 0
-}
+/*.footer__item svg {*/
+/*    display: none;*/
+/*}*/
 
 @media (max-width: 996px) {
     .navbar__items {
         justify-content: flex-start;
     }
-}
-
-@keyframes slowBounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-35px);
-    }
-}
-
-.slow-bounce {
-    animation: slowBounce 3s ease-in-out infinite;
 }
