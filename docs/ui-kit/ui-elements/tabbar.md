@@ -1,10 +1,12 @@
 ---
 sidebar_position: 14
-title: TopTabs Component
+title: TopTabs
 description: TopTabs is a customizable top tab navigation component for React Native. It provides a clean, animated underline indicator and supports rendering dynamic tab content based on the selected tab.
 ---
 
-## Skeleton Component
+# TabBar
+
+## Import
 
 ```tsx
 import TopTabs from '@/components/ui/tabs/TopTabs'; 
@@ -12,7 +14,7 @@ import TopTabs from '@/components/ui/tabs/TopTabs';
 
 ---
 
-### Props
+## Props
 
 | Prop           | Type        | Default      | Description                                                           |
 |----------------|-------------|--------------|-----------------------------------------------------------------------|

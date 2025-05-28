@@ -1,10 +1,12 @@
 ---
 sidebar_position: 11
-title: Skeleton Component
+title: Skeleton
 description: Skeleton component is a customizable shimmer loading placeholder for React Native. It provides a visually appealing animated gradient effect while content is loading.
 ---
 
-## Skeleton Component
+## Skeleton
+
+### Import
 
 ```tsx
 import Skeleton from '@/components/ui/Skeleton';
@@ -25,7 +27,7 @@ import Skeleton from '@/components/ui/Skeleton';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 <Skeleton height={20} width="80%" borderRadius={8} direction="rightToLeft"/>

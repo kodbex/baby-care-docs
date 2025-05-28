@@ -1,10 +1,12 @@
 ---
 sidebar_position: 12
-title: MNSpinner Component
+title: MNSpinner
 description: MNSpinner providing default styling and customization for consistent usage throughout the app.
 ---
 
-## Skeleton Component
+## Skeleton
+
+### Import
 
 ```tsx
 import MNSpinner from '@/components/ui/spinner/MNSpinner';
@@ -22,7 +24,7 @@ import MNSpinner from '@/components/ui/spinner/MNSpinner';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 <MNSpinner/>
