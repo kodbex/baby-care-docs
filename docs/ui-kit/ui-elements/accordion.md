@@ -96,7 +96,7 @@ Represents a single accordion section.
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 > **NOTE:**
 > All example can be founded in `accordions.tsx`
