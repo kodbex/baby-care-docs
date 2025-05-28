@@ -5,12 +5,15 @@ description: ProgressBars is a customizable component that displays a circular p
 
 ---
 
-# Purpose
+# Progress Bars
 
-`ProgressBars` is a customizable component that displays a circular progress indicator. with an optional percentage text
+## Purpose
+
+`ProgressCircle` is a customizable component that displays a circular progress indicator. with an optional percentage
+text
 inside
 
-## ProgressCircle Component
+### Import
 
 ```tsx
 import ProgressCircle from '@/components/ui/progressBars/ProgressCircle';
@@ -30,7 +33,7 @@ import ProgressCircle from '@/components/ui/progressBars/ProgressCircle';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 <ProgressCircle
@@ -45,7 +48,9 @@ import ProgressCircle from '@/components/ui/progressBars/ProgressCircle';
 
 ---
 
-## ProgressHorizontal Component
+## ProgressHorizontal
+
+### Import
 
 ```tsx
 import ProgressHorizontal from '@/components/ui/progressBars/ProgressHorizontal';
@@ -67,7 +72,7 @@ import ProgressHorizontal from '@/components/ui/progressBars/ProgressHorizontal'
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 <ProgressHorizontal

@@ -9,7 +9,9 @@ description: MNFlatList is a generic, reusable wrapper around React Native's `Fl
 MNFlatList is a generic, reusable wrapper around React Native's `FlatList` component.
 It simplifies usage by providing default styling and customizable props for flexible list rendering.
 
-## MNFlatList Component
+## MNFlatList
+
+### Import
 
 ```tsx
 import MNFlatList from '@/components/ui/scrollList/MNFlatList';
@@ -30,7 +32,7 @@ import MNFlatList from '@/components/ui/scrollList/MNFlatList';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
  <MNFlatList
@@ -43,11 +45,13 @@ import MNFlatList from '@/components/ui/scrollList/MNFlatList';
 
 ---
 
-## MNPaginatedList Component
+## MNPaginatedList
 
 `MNPaginatedList` renders a paginated list using `FlatList`. It simulates API data
 fetching with pagination, supports both vertical and horizontal scrolling, and shows a loading spinner when new data is
 being fetched.
+
+### Import
 
 ```tsx
 import MNPaginatedList from '@/components/ui/scrollList/MNPaginatedList';
@@ -63,7 +67,7 @@ import MNPaginatedList from '@/components/ui/scrollList/MNPaginatedList';
 
 ---
 
-## Basic Usage
+### Basic Usage
 
 ```tsx
 <MNPaginatedList horizontal={false}/>
