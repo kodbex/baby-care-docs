@@ -1,47 +1,57 @@
 ---
 sidebar_position: 1
+title: Introduction
+description: Discover the Baby Development UI Kit – a complete React Native solution for building beautiful, scalable, and user-friendly baby development applications.
 ---
 
-# Tutorial Intro
+# Baby Development UI Kit – Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Baby Development UI Kit**, a powerful and flexible **React Native-based toolkit** crafted for
+developers, startups, and businesses building mobile apps for **baby growth tracking**, **milestone logging**, and *
+*early childhood engagement**.
 
-## Getting Started
+Designed with care and backed by practical use cases, this UI Kit includes a wide array of **prebuilt UI components,
+screens, and flows**—everything you need to create beautiful, intuitive, and high-performing apps for **parents**, *
+*caregivers**, **educators**, or even **health professionals**.
 
-Get started by **creating a new site**.
+## Why Use This Kit?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Whether you're a developer looking to speed up project delivery, or a product owner seeking a reliable mobile
+foundation, the Baby Development UI Kit offers:
 
-### What you'll need
+- **Ready-to-use components** – onboarding, authentication, activity screens, video and image feeds, and more
+- **Multiple home layouts** – choose from 3 home screen designs based on your app's tone or audience
+- **Reusable design blocks** – consistent, themed, and modular components for faster scaling
+- **Rapid prototyping** – build and test ideas without starting from scratch
+- **Mobile-first development** – fully optimized for React Native mobile UX best practices
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Purpose
 
-## Generate a new site
+This UI Kit exists to **accelerate development** and **enhance app quality** for anyone building apps centered around
+babies and early childhood. It's perfect for:
 
-Generate a new Docusaurus site using the **classic template**.
+- **Developers and teams** who want to save months of design and development time
+- **Entrepreneurs and product owners** planning to launch baby tracking or parenting apps
+- **Investors and buyers** seeking a market-ready solution or scalable UI base
 
-The classic template will automatically be added to your project after you run the command:
+It’s more than just a component library — it’s a **production-ready, feature-rich starter framework** for any baby
+development mobile app idea.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## What’s Inside?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Inside this kit, you’ll find:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **Authentication flows** – login, register, password reset, and more
+- **Onboarding experiences** – intro sliders and welcome screens
+- **Three unique Home screen layouts**
+- **Activity tracking modules** – Gross Motor, Fine Motor, Cognitive, and others
+- **Rich media feeds** – image gallery, video content, and educational articles
+- **Beautiful UI components** – buttons, forms, cards, avatars, progress bars, and more
 
-## Start your site
+## Start Building Today
 
-Run the development server:
+With full source code, modular structure, and clear documentation, you can **customize the Baby Development UI Kit** to
+fit any use case or brand. **Build faster, launch smarter**, and create delightful experiences for families everywhere.
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> Ready to dive in? Head to [Getting Started](./getting-started/installation) to set up the project locally and start
+> exploring.
