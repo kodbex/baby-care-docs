@@ -5,7 +5,9 @@ description: A customizable button component that supports icons, loading states
 
 ---
 
-## Import
+# Buttons
+
+## MNSingleButton
 
 ```tsx
 import MNSingleButton from '@/components/ui/buttons/MNSingleButton';
@@ -13,7 +15,7 @@ import MNSingleButton from '@/components/ui/buttons/MNSingleButton';
 
 ---
 
-## Props
+### Props
 
 | Prop           | Type                | Default         | Description                                                               |
 |----------------|---------------------|-----------------|---------------------------------------------------------------------------|
@@ -106,9 +108,7 @@ import MNCompoundButton from '@/components/ui/buttons/MNCompoundButton';
 
 ---
 
-## Usage Examples
-
-### Simple Use Case
+### Usage Examples
 
 ```tsx
 <MNCompoundButton
@@ -154,9 +154,7 @@ import MNDropdown from '@/components/ui/buttons/MNDropdown';
 
 ---
 
-## Usage Examples
-
-### Simple Use Case
+### Usage Examples
 
 ```tsx
  <MNDropdown
