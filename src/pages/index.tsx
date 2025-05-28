@@ -1,14 +1,11 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './index.module.css';
 import {FaWhatsapp, FaEnvelope} from 'react-icons/fa';
 import {useInView} from "react-intersection-observer";
 import {motion} from "framer-motion";
-
 
 const FeatureCard = ({image, title, description, delay = "2s", animate = false}) => (
     <div
@@ -508,17 +505,16 @@ function HireUs() {
 
 export default function Home() {
     return (
-        <Layout
-            title="Baby Development App UI Kit | Build Faster with React Native"
-            description="Discover the #1 React Native UI Kit for baby development apps with stunning home screens."
-        >
-            <LandingSection/>
-            <ActivitySection/>
-            <FeedSection/>
-            <ChildManagementSection/>
-            <IntroSliders/>
-            <UIComponentSections/>
-            <HireUs/>
-        </Layout>
+        <div className="landing-page">
+            <Layout>
+                <LandingSection/>
+                <ActivitySection/>
+                <FeedSection/>
+                <ChildManagementSection/>
+                <IntroSliders/>
+                <UIComponentSections/>
+                <HireUs/>
+            </Layout>
+        </div>
     );
 }
