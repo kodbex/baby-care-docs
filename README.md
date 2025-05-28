@@ -1,10 +1,14 @@
-# Baby Care Docs
+## main branch
 
-Official documentation for the Baby Care React Native Expo Template.
+- tailwindcss configured
+- Algolia Docsearch configured
 
-👉 Live Site: [https://sulaman0.github.io/baby-care-docs](https://sulaman0.github.io/baby-care-docs)
+## tailwind-css branch
 
-Built with [Docusaurus](https://docusaurus.io).
+- tailwindcss configured
 
+## Docker command
 
-...
+```
+docker run -it --env-file=./.env -e "CONFIG=$(cat ./algolia.config.json | jq -r tostring)" algolia/docsearch-scraper
+```
