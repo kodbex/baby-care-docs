@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Clear the Cache
+        run: npm run clear
+
       - name: Build website
         run: npm run build
 
