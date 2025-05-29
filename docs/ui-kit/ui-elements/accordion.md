@@ -44,8 +44,8 @@ customization.
 | Prop             | Type              | Default          | Description                                          |
 |------------------|-------------------|------------------|------------------------------------------------------|
 | `data`           | `AccordionItem[]` | **required**     | Array of accordion items to render.                  |
-| `title`          | `string`          | `undefined`      | Optional main title shown above all accordion items. |
-| `desc`           | `string`          | `undefined`      | Optional description shown below the main title.     |
+| `title`          | `string`          | `-`      | Optional main title shown above all accordion items. |
+| `desc`           | `string`          | `-`      | Optional description shown below the main title.     |
 | `openIcon`       | `string`          | `'chevron-up'`   | Icon name for expanded state (Ionicons).             |
 | `closeIcon`      | `string`          | `'chevron-down'` | Icon name for collapsed state (Ionicons).            |
 | `shouldShowIcon` | `boolean`         | `true`           | Whether to show the expand/collapse icon.            |
@@ -86,8 +86,8 @@ Represents a single accordion section.
 | Prop Name        | Type              | Default          | Description                                        |
 |------------------|-------------------|------------------|----------------------------------------------------|
 | `data`           | `AccordionItem[]` | **Required**     | List of items to display in the accordion.         |
-| `title`          | `string`          | `undefined`      | Main heading displayed above the accordion list.   |
-| `desc`           | `string`          | `undefined`      | Description displayed under the main title.        |
+| `title`          | `string`          | `-`      | Main heading displayed above the accordion list.   |
+| `desc`           | `string`          | `-`      | Description displayed under the main title.        |
 | `openIcon`       | `string`          | `'chevron-up'`   | Icon when the section is expanded.                 |
 | `closeIcon`      | `string`          | `'chevron-down'` | Icon when the section is collapsed.                |
 | `shouldShowIcon` | `boolean`         | `true`           | Whether to show toggle icons in headers.           |
