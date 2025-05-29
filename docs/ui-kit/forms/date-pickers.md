@@ -29,8 +29,8 @@ import MNDatePicker from '@/components/ui/forms/dateTimePicker/MNDatePicker';
 | `calendarMode` | `'date' \| 'time' \| 'datetime' \| 'countdown'`   | `'date'`     | Mode of the picker, selects what to pick: date, time, both, or countdown timer.                 |
 | `displayMode`  | `'default' \| 'compact' \| 'inline' \| 'spinner'` | `'inline'`   | Display style of the picker (platform dependent).                                               |
 | `pickerHeight` | `number`                                          | `350`        | Height of the BottomSheet modal containing the picker.                                          |
-| `maximumDate`  | `Date`                                            | `undefined`  | Optional maximum date allowed for selection.                                                    |
-| `minimumDate`  | `Date`                                            | `undefined`  | Optional minimum date allowed for selection.                                                    |
+| `maximumDate`  | `Date`                                            | `-`  | Optional maximum date allowed for selection.                                                    |
+| `minimumDate`  | `Date`                                            | `-`  | Optional minimum date allowed for selection.                                                    |
 | `title`        | `string`                                          | `''`         | Optional title text displayed on the BottomSheet modal.                                         |
 
 ---
