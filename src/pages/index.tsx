@@ -505,7 +505,7 @@ function HireUs() {
 
 export default function Home() {
     return (
-        <div className="landing-page">
+        <div className="landing-page o">
             <Layout>
                 <LandingSection/>
                 <ActivitySection/>

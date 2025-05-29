@@ -31,7 +31,7 @@ const config: Config = {
                     showReadingTime: true,
                 },
                 theme: {
-                    customCss: "./src/css/layoutFile.css?1.3",
+                    customCss: "./src/css/layoutFile.css?1.4",
                 },
             } satisfies Preset.Options,
         ],

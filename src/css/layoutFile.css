@@ -54,7 +54,7 @@ body {
 
 .landing-page {
     .navbar__logo {
-        background: unset;
+        background-color: unset;
     }
 
     /*.navbar {*/
@@ -68,11 +68,11 @@ body {
     /*    height: 80px;*/
     /*}*/
 
-    /*.navbar__link {*/
-    /*    color: white;*/
-    /*    font-weight: 600;*/
-    /*    transition: color 0.3s ease;*/
-    /*}*/
+    .navbar__link {
+        color: white;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
 
     .navbar__link:hover {
         color: #50BEE9;
