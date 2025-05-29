@@ -20,7 +20,7 @@ import MNSpinner from '@/components/ui/spinner/MNSpinner';
 |---------|--------------------------------|-----------------|-------------------------------------------------------------------------|
 | `color` | `string`                       | `PRIMARY_COLOR` | Sets the color of the spinner. Uses the app's primary color by default. |
 | `size`  | `'small'` \| `'large'`         | `'small'`       | Defines the size of the spinner.                                        |
-| `style` | `StyleProps` (from Reanimated) | `undefined`     | Additional styling for the spinner container.                           |
+| `style` | `StyleProps` (from Reanimated) | `-`     | Additional styling for the spinner container.                           |
 
 ---
 
