@@ -25,11 +25,11 @@ import MNImageSlider from '@/components/ui/MNImageSlider';
 | `prevBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the previous button.                                                   |
 | `nextBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the next button.                                                       |
 | `doneBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the done button.                                                       |
-| `onDonePress`      | `() => void`                    | ❌        | `undefined` | Callback function called when the done button is pressed.                              |
-| `prevBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the previous button.                                     |
-| `nextBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the next button.                                         |
-| `doneBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the done button.                                         |
-| `onSlidePress`     | `(slideNumber: number) => void` | ❌        | `undefined` | Callback called with the slide id when a slide is pressed.                             |
+| `onDonePress`      | `() => void`                    | ❌        | `-` | Callback function called when the done button is pressed.                              |
+| `prevBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the previous button.                                     |
+| `nextBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the next button.                                         |
+| `doneBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the done button.                                         |
+| `onSlidePress`     | `(slideNumber: number) => void` | ❌        | `-` | Callback called with the slide id when a slide is pressed.                             |
 
 ---
 
@@ -70,11 +70,11 @@ import MNTextSlider from '@/components/ui/MNTextSlider';
 | `prevBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the previous button.                                             |
 | `nextBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the next button.                                                 |
 | `doneBtn`          | `boolean`                       | ❌        | `false`     | Whether to show the done button.                                                 |
-| `onDonePress`      | `() => void`                    | ❌        | `undefined` | Callback when the done button is pressed.                                        |
-| `prevBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the previous button.                               |
-| `nextBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the next button.                                   |
-| `doneBtnComponent` | `() => React.ReactNode`         | ❌        | `undefined` | Custom component to render as the done button.                                   |
-| `onSlidePress`     | `(slideNumber: number) => void` | ❌        | `undefined` | Callback called with the slide id when a slide is pressed.                       |
+| `onDonePress`      | `() => void`                    | ❌        | `-` | Callback when the done button is pressed.                                        |
+| `prevBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the previous button.                               |
+| `nextBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the next button.                                   |
+| `doneBtnComponent` | `() => React.ReactNode`         | ❌        | `-` | Custom component to render as the done button.                                   |
+| `onSlidePress`     | `(slideNumber: number) => void` | ❌        | `-` | Callback called with the slide id when a slide is pressed.                       |
 
 ---
 
