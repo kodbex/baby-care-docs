@@ -23,7 +23,7 @@ import Skeleton from '@/components/ui/Skeleton';
 | `borderRadius`      | `number`                         | `4`             | Border radius for the skeleton shape.                           |
 | `animationDuration` | `number`                         | `800` (fixed)   | Duration of the shimmer animation (currently fixed internally). |
 | `direction`         | `'leftToRight' \| 'rightToLeft'` | `'leftToRight'` | Direction of shimmer animation.                                 |
-| `containerStyle`    | `object`                         | `undefined`     | Additional style to apply to the outer container.               |
+| `containerStyle`    | `object`                         | `-`     | Additional style to apply to the outer container.               |
 
 ---
 
