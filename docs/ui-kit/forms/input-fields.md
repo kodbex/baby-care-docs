@@ -29,13 +29,13 @@ import MNTextInput from '@/components/ui/forms/MNTextInput';
 | `value`         | `string`                 | `''`         | The current value of the input.                                |
 | `onChangeText`  | `(text: string) => void` | **Required** | Callback when the text value changes.                          |
 | `icon`          | `string`                 | **Required** | Ionicon name for the icon displayed on the right.              |
-| `autoComplete`  | `string`                 | `undefined`  | Optional autoComplete value (e.g., `email`, `username`, etc.). |
+| `autoComplete`  | `string`                 | `-`  | Optional autoComplete value (e.g., `email`, `username`, etc.). |
 | `multipleLines` | `boolean`                | `false`      | Whether the input supports multiple lines.                     |
 | `editable`      | `boolean`                | `true`       | Whether the input is editable.                                 |
 | `secureText`    | `boolean`                | `false`      | Whether the text should be obscured (e.g., for passwords).     |
-| `iconClick`     | `() => void`             | `undefined`  | Optional callback for when the icon is pressed.                |
-| `onFocus`       | `() => void`             | `undefined`  | Optional callback when the input is focused.                   |
-| `onBlur`        | `() => void`             | `undefined`  | Optional callback when the input loses focus.                  |
+| `iconClick`     | `() => void`             | `-`  | Optional callback for when the icon is pressed.                |
+| `onFocus`       | `() => void`             | `-`  | Optional callback when the input is focused.                   |
+| `onBlur`        | `() => void`             | `-`  | Optional callback when the input loses focus.                  |
 
 ---
 
@@ -77,13 +77,13 @@ import MNTextInputAnimated from '@/components/MNTextInputAnimated';
 | `value`         | `string`                 | ❌        | `''`        | Current value of the input field.                                    |
 | `onChangeText`  | `(text: string) => void` | ✅        | –           | Function called when the text changes.                               |
 | `icon`          | `string`                 | ✅        | –           | Name of Ionicon to display on the right side.                        |
-| `autoComplete`  | `string`                 | ❌        | `undefined` | Optional autocomplete setting for input (e.g., `email`, `username`). |
+| `autoComplete`  | `string`                 | ❌        | `-` | Optional autocomplete setting for input (e.g., `email`, `username`). |
 | `multipleLines` | `boolean`                | ❌        | `false`     | Whether to allow multiline input.                                    |
 | `editable`      | `boolean`                | ❌        | `true`      | Determines if the input can be edited.                               |
 | `secureText`    | `boolean`                | ❌        | `false`     | Masks the text input (for passwords).                                |
-| `iconClick`     | `() => void`             | ❌        | `undefined` | Function triggered when the icon is pressed.                         |
-| `onFocus`       | `() => void`             | ❌        | `undefined` | Callback fired on focus event.                                       |
-| `onBlur`        | `() => void`             | ❌        | `undefined` | Callback fired on blur event.                                        |
+| `iconClick`     | `() => void`             | ❌        | `-` | Function triggered when the icon is pressed.                         |
+| `onFocus`       | `() => void`             | ❌        | `-` | Callback fired on focus event.                                       |
+| `onBlur`        | `() => void`             | ❌        | `-` | Callback fired on blur event.                                        |
 
 ### Usage Example
 
@@ -227,13 +227,13 @@ import MNOneLineTextInputAnimated from '@/components/ui/forms/textInputs/MNOneLi
 | `value`         | `string`                 | ❌        | `''`        | Input field value.                                |
 | `onChangeText`  | `(text: string) => void` | ✅        | —           | Callback when input text changes.                 |
 | `icon`          | `string`                 | ✅        | —           | Icon name (Ionicons) displayed on the right.      |
-| `autoComplete`  | `string`                 | ❌        | `undefined` | HTML autocomplete value (ignored by TypeScript).  |
+| `autoComplete`  | `string`                 | ❌        | `-` | HTML autocomplete value (ignored by TypeScript).  |
 | `multipleLines` | `boolean`                | ❌        | `false`     | Allows multi-line input.                          |
 | `editable`      | `boolean`                | ❌        | `true`      | Whether the input is editable.                    |
 | `secureText`    | `boolean`                | ❌        | `false`     | Masks the text for secure entry (e.g., password). |
-| `iconClick`     | `() => void`             | ❌        | `undefined` | Function called when the icon is pressed.         |
-| `onFocus`       | `() => void`             | ❌        | `undefined` | Function called when the input is focused.        |
-| `onBlur`        | `() => void`             | ❌        | `undefined` | Function called when the input loses focus.       |
+| `iconClick`     | `() => void`             | ❌        | `-` | Function called when the icon is pressed.         |
+| `onFocus`       | `() => void`             | ❌        | `-` | Function called when the input is focused.        |
+| `onBlur`        | `() => void`             | ❌        | `-` | Function called when the input loses focus.       |
 
 ---
 
