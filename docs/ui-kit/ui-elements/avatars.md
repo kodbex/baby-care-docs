@@ -27,11 +27,11 @@ import MNAvatar from '@/components/MNAvatar';
 |-------------------|----------------------------------------|-----------------|-------------------------------------------|
 | `size`            | `'xs' \| 'sm' \| 'md' \| 'lg' \| 'xl'` | `'md'`          | Size of the avatar.                       |
 | `shape`           | `'circle' \| 'rectangle'`              | `'circle'`      | Shape of the avatar.                      |
-| `imageUrl`        | `string`                               | `undefined`     | URL of the image to display.              |
+| `imageUrl`        | `string`                               | `-`     | URL of the image to display.              |
 | `fallbackText`    | `string`                               | `''`            | Text to show when image is not available. |
 | `backgroundColor` | `string`                               | `PRIMARY_COLOR` | Background color of the avatar.           |
 | `textColor`       | `string`                               | `WHITE_COLOR`   | Text color for fallback text.             |
-| `style`           | `StyleProp<ViewStyle>`                 | `undefined`     | Custom styles for the avatar container.   |
+| `style`           | `StyleProp<ViewStyle>`                 | `-`     | Custom styles for the avatar container.   |
 
 ### Usage
 
@@ -102,7 +102,7 @@ import MNAvatarGroup from '@/components/MNAvatarGroup';
 | `size`       | `'xs' \| 'sm' \| 'md' \| 'lg' \| 'xl'` | `'md'`       | Size of each avatar                                |
 | `shape`      | `'circle' \| 'rectangle'`              | `'circle'`   | Shape of each avatar                               |
 | `overlap`    | `number`                               | `16`         | Number of pixels each avatar overlaps the previous |
-| `style`      | `StyleProp<ViewStyle>`                 | `undefined`  | Custom style for the avatar group container        |
+| `style`      | `StyleProp<ViewStyle>`                 | `-`  | Custom style for the avatar group container        |
 
 ---
 
