@@ -21,7 +21,7 @@ import MNSingleButton from '@/components/ui/buttons/MNSingleButton';
 |----------------|---------------------|-----------------|---------------------------------------------------------------------------|
 | `text`         | `string`            | **Required**    | Text label to display inside the button.                                  |
 | `icon`         | `string`            | **Required**    | Ionicons icon name to display.                                            |
-| `onPress`      | `() => void`        | `undefined`     | Function triggered on button press (not called if `isLoading` is `true`). |
+| `onPress`      | `() => void`        | `-`     | Function triggered on button press (not called if `isLoading` is `true`). |
 | `color`        | `string`            | `WHITE_COLOR`   | Color of the icon and text.                                               |
 | `bgColor`      | `string`            | `PRIMARY_COLOR` | Background color of the button.                                           |
 | `isLoading`    | `boolean`           | `false`         | If `true`, shows a loading spinner instead of the text.                   |
@@ -102,7 +102,7 @@ import MNCompoundButton from '@/components/ui/buttons/MNCompoundButton';
 | `firstButtonCloseAction`  | `() => void` | ✅        | –           | Callback when the first button is pressed.  |
 | `secondButtonText`        | `string`     | ✅        | –           | Label for the second button.                |
 | `secondButtonIcon`        | `string`     | ✅        | –           | Icon name for the second button (Ionicons). |
-| `secondButtonColor`       | `string`     | ❌        | `undefined` | Text/icon color for the second button.      |
+| `secondButtonColor`       | `string`     | ❌        | `-` | Text/icon color for the second button.      |
 | `secondButtonBgColor`     | `string`     | ✅        | –           | Background color for the second button.     |
 | `secondButtonCloseAction` | `() => void` | ✅        | –           | Callback when the second button is pressed. |
 
