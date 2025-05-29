@@ -91,12 +91,3 @@ body {
     background-color: #3ea8d0;
 }
 
-/*.footer__item svg {*/
-/*    display: none;*/
-/*}*/
-
-@media (max-width: 996px) {
-    .navbar__items {
-        justify-content: flex-start;
-    }
-}
