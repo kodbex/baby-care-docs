@@ -52,20 +52,17 @@ body {
     padding: 2px;
 }
 
+.navbar {
+    background-color: white;
+}
+
 .landing-page {
     .navbar__logo {
         background: unset;
     }
 
     .navbar {
-        /*display: flex;*/
-        /*justify-content: space-between;*/
-        /*align-items: center;*/
-        /*padding: 0.5rem 5rem;*/
         background-color: #93abdb;
-        /*box-shadow: none;*/
-        /*position: relative;*/
-        height: 80px;
     }
 
     .navbar__link {
