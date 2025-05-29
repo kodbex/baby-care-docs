@@ -23,11 +23,11 @@ import MNBadge from '@/components/MNBadge';
 | Prop             | Type                          | Default           | Description                                         |
 |------------------|-------------------------------|-------------------|-----------------------------------------------------|
 | `type`           | `'dot' \| 'number' \| 'text'` | `'dot'`           | Type of badge to display                            |
-| `value`          | `number \| string`            | `undefined`       | Value to display inside the badge (for number/text) |
+| `value`          | `number \| string`            | `-`       | Value to display inside the badge (for number/text) |
 | `color`          | `string`                      | `SECONDARY_COLOR` | Background color of the badge                       |
 | `position`       | `'topRight' \| 'inline'`      | `'topRight'`      | Position of the badge relative to its children      |
-| `children`       | `React.ReactNode`             | `undefined`       | The child elements to wrap with the badge           |
-| `containerStyle` | `ViewStyle`                   | `undefined`       | Optional additional styles for the container view   |
+| `children`       | `React.ReactNode`             | `-`       | The child elements to wrap with the badge           |
+| `containerStyle` | `ViewStyle`                   | `-`       | Optional additional styles for the container view   |
 
 ---
 
