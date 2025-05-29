@@ -22,10 +22,10 @@ import BottomSheet from '@/components/shared/bottomsheet/BottomSheet';
 | `title`               | `string`          | `'Choose Option'` | Optional title shown at the top of the bottom sheet.               |
 | `bottomSheetRef`      | `Ref<RBSheetRef>` | **Required**      | Ref object used to control the bottom sheet externally.            |
 | `closeOnPressMask`    | `boolean`         | `true`            | If `true`, tapping outside the sheet will close it.                |
-| `closeAction`         | `() => void`      | `undefined`       | Callback fired when the close icon is pressed.                     |
+| `closeAction`         | `() => void`      | `-`       | Callback fired when the close icon is pressed.                     |
 | `fullHeight`          | `boolean`         | `false`           | If `true`, expands the bottom sheet to (screen height - 60).       |
-| `containerStyle`      | `StyleProps`      | `undefined`       | Optional custom style for the bottom sheet container.              |
-| `childContainerStyle` | `StyleProps`      | `undefined`       | Optional style applied to the children container inside the sheet. |
+| `containerStyle`      | `StyleProps`      | `-`       | Optional custom style for the bottom sheet container.              |
+| `childContainerStyle` | `StyleProps`      | `-`       | Optional style applied to the children container inside the sheet. |
 
 ---
 
