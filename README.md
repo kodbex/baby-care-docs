@@ -1,9 +1,3 @@
----
-sidebar_position: 1
-title: Introduction
-description: Discover the Baby Development UI Kit – a complete React Native solution for building beautiful, scalable, and user-friendly baby development applications.
----
-
 # Baby Development UI Kit
 
 Welcome to the **Baby Development UI Kit**, a powerful and flexible **React Native-based toolkit** crafted for
