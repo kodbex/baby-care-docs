@@ -158,9 +158,9 @@ const config: Config = {
                 property: 'og:description',
                 content: 'Launch smarter parenting apps with beautiful, AI-ready UI components.'
             },
-            {property: 'og:image', content: 'https://github.io/kodbex/img/social-card.png'},
-            {property: 'og:url', content: 'https://github.io/kodbex/img/social-card.png'},
-            {name: 'twitter:card', content: 'https://github.io/kodbex/img/social-card.png'},
+            {property: 'og:image', content: 'https://kodbex.github.io/baby-development-ui-kit/img/social-card.png'},
+            {property: 'og:url', content: 'https://kodbex.github.io/baby-development-ui-kit/img/social-card.png'},
+            {name: 'twitter:card', content: 'https://kodbex.github.io/baby-development-ui-kit/img/social-card.png'},
 
         ],
         presets: [
