@@ -60,7 +60,7 @@ function LandingSection() {
                         className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 animate__animated animate__fadeInUp animate__delay-2s">
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/"
+                            to="https://codecanyon.net/item/babycare-ui-kit-react-native-baby-development-template/58326074?srsltid=AfmBOoqcNICDhyS1wElRQVnf0zyI6BNcDbxpGD36wD9xPPe1hR7UfmmX"
                         >
                             Buy Now
                         </Link>
@@ -154,7 +154,7 @@ function ActivitySection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/"
+                            to="https://codecanyon.net/item/babycare-ui-kit-react-native-baby-development-template/58326074?srsltid=AfmBOoqcNICDhyS1wElRQVnf0zyI6BNcDbxpGD36wD9xPPe1hR7UfmmX"
                         >
                             Buy Now
                         </Link>
@@ -217,7 +217,7 @@ function FeedSection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/"
+                            to="https://codecanyon.net/item/babycare-ui-kit-react-native-baby-development-template/58326074?srsltid=AfmBOoqcNICDhyS1wElRQVnf0zyI6BNcDbxpGD36wD9xPPe1hR7UfmmX"
                         >
                             Buy Now
                         </Link>
@@ -306,7 +306,7 @@ function ChildManagementSection() {
                         className={`flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-6 ${inView ? "animate__animated animate__fadeInUp animate__delay-2s" : "opacity-0"}`}>
                         <Link
                             className="bg-[#50BEE9] text-white px-6 py-3 rounded-lg hover:bg-[#3ea8d0] transition-colors"
-                            to="/"
+                            to="https://codecanyon.net/item/babycare-ui-kit-react-native-baby-development-template/58326074?srsltid=AfmBOoqcNICDhyS1wElRQVnf0zyI6BNcDbxpGD36wD9xPPe1hR7UfmmX"
                         >
                             Buy Now
                         </Link>
